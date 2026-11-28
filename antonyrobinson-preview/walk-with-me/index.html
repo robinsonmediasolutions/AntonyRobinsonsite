@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Walk With Me — One-on-One Coaching with Antony Robinson</title>
+<meta name="description" content="One-on-one coaching with Antony Robinson: name the false identity that's driving you, and align your life with the one God already gave you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+  .coach{ position:relative; min-height:680px; display:flex; align-items:center; overflow:hidden; border-bottom:1px solid var(--hair); }
+  .coach-photo{ position:absolute; right:0; top:0; bottom:0; width:64%; }
+  .coach-photo img{ width:100%; height:100%; object-fit:cover; object-position:center 22%; filter:saturate(0.95); }
+  .coach-photo::after{ content:''; position:absolute; inset:0;
+    background:
+      linear-gradient(270deg, rgba(2,22,43,0) 35%, rgba(2,22,43,0.75) 75%, var(--ink) 100%),
+      linear-gradient(180deg, var(--ink) 0%, rgba(2,22,43,0) 16%, rgba(2,22,43,0) 84%, var(--ink) 100%),
+      linear-gradient(270deg, var(--ink) 0%, rgba(2,22,43,0) 12%); }
+  .coach-content{ position:relative; z-index:2; width:100%; display:flex; justify-content:flex-start; padding-top:90px; padding-bottom:90px; }
+  .coach-content .inner{ max-width:500px; }
+  .coach-content h1{ font-size:clamp(1.9rem,3.6vw,2.8rem); line-height:1.18; margin-bottom:20px; }
+
+  .apply{ padding:80px 0 90px; scroll-margin-top:70px; }
+  .apply-head{ text-align:center; margin-bottom:32px; }
+  .apply-head h2{ font-size:clamp(1.8rem,3.4vw,2.6rem); }
+  .apply-box{ max-width:760px; margin:0 auto; }
+  /* JOTFORM EMBED GOES INSIDE #jotform-embed */
+  .apply-placeholder{ border:2px dashed var(--hair-strong); border-radius:16px; padding:48px 32px; text-align:center; color:var(--stone-dim); background:var(--panel); font-size:0.95rem; }
+
+  @media (max-width:760px){
+    .coach{ display:block; min-height:auto; }
+    .coach-photo{ position:relative; width:100%; }
+    .coach-photo img{ height:auto; aspect-ratio:4/5; object-position:center 15%; }
+    .coach-photo::after{ background:linear-gradient(0deg, var(--ink) 0%, rgba(2,22,43,0) 38%), linear-gradient(180deg, var(--ink) 0%, rgba(2,22,43,0) 10%); }
+    .coach-content{ display:block; padding-top:0; padding-bottom:56px; margin-top:-24px; }
+    .coach-content .inner{ max-width:100%; }
+    .apply{ padding:56px 0 64px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <input type="checkbox" id="mobnav-toggle" class="mobnav-toggle">
+  <div class="nav-inner">
+    <a class="brand" href="/">
+      <img src="/assets/logo-white.png" alt="Antony Robinson">
+      <span>Antony Robinson</span>
+    </a>
+    <nav class="links">
+      <a href="/about.html">About</a>
+      <a href="https://antonyrobinson.myshopify.com" target="_blank" rel="noopener">The Book</a>
+      <a href="/cohort/">The Cohort</a>
+      <a href="/walk-with-me/" class="current">Walk With Me</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="/assessment/">Take the Free Assessment</a>
+      <label for="mobnav-toggle" class="mobnav-btn" aria-label="Menu"><span></span><span></span><span></span></label>
+    </div>
+  </div>
+  <div class="mobnav-panel">
+    <a href="/about.html">About</a>
+    <a href="https://antonyrobinson.myshopify.com" target="_blank" rel="noopener">The Book</a>
+    <a href="/cohort/">The Cohort</a>
+    <a href="/walk-with-me/" class="current">Walk With Me</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="coach">
+    <div class="coach-photo">
+      <img src="/assets/coaching.jpg" alt="Antony Robinson coaching one-on-one">
+    </div>
+    <div class="wrap coach-content">
+      <div class="inner">
+        <span class="eyebrow"><img class="jar-mark" src="/assets/jar.png" alt=""> One-on-One Coaching</span>
+        <h1>You can't do what you were created to do until you become who you were created to be.</h1>
+        <p style="color:var(--stone); font-size:1.05rem; line-height:1.75; margin:0 0 28px;">That's not a theory — it's my testimony. In one-on-one coaching, we'll walk that path together: naming the false identity that's driving you, and aligning your life with the one God already gave you.</p>
+        <a href="#apply" class="btn btn-primary">Walk With Me →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply" id="apply">
+    <div class="wrap">
+      <div class="apply-head">
+        <span class="eyebrow" style="justify-content:center;">Get Started</span>
+        <h2>Walk With Me</h2>
+      </div>
+      <div class="apply-box">
+        <div id="jotform-embed">
+          <script type="text/javascript" src="https://form.jotform.com/jsform/263307300224039"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <img class="sig" src="/assets/logo-white.png" alt="Antony Robinson">
+    <div class="foot-links">
+      <a href="/about.html">About</a>
+      <a href="https://antonyrobinson.myshopify.com" target="_blank" rel="noopener">The Book</a>
+      <a href="/cohort/">The Cohort</a>
+      <a href="/walk-with-me/">Walk With Me</a>
+      <a href="/speaking.html">Speak</a>
+      <a href="/proof.html">Watch</a>
+      <a href="/assessment/">Free Assessment</a>
+    </div>
+    <p class="fine">© 2026 Antony Robinson. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
